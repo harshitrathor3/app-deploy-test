@@ -7,4 +7,4 @@ st.write(name)
 num = st.text_input('Enter a number')
 if num:
     st.write(np.exp(int(num)))
-    st.write(np.exp(int(variable)))
+    st.write(np.exp(int(st.secrets["variable"])))
